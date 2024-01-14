@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SIZE_CMD="size --format=SysV"
+
+echo -ne "section               size      addr\n"
+$SIZE_CMD ./bin/c-intro-demo | grep ".text"
+$SIZE_CMD ./bin/c-intro-demo | grep ".data" | grep -v "rodata"
+$SIZE_CMD ./bin/c-intro-demo | grep ".bss"
+
