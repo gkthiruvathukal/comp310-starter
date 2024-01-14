@@ -18,6 +18,7 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
 FetchContent_MakeAvailable(googletest)
+include_directories(${GTEST_INCLUDE_DIRS})
 
 add_subdirectory(hello)
 add_subdirectory(hello-lib)
