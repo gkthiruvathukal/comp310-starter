@@ -5,6 +5,6 @@
 tasks:
   - init: |
       sudo apt update -q && sudo apt upgrade -y -q
-      sudo apt install cmake
+      sudo apt install cmake -y
       cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build
       cmake --build build
