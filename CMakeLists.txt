@@ -28,6 +28,7 @@ add_subdirectory(gtest-demo)
 add_subdirectory(WarmUp_10)
 add_subdirectory(WarmUp_1)
 add_subdirectory(WarmUp_2)
+add_subdirectory(WarmUp_3)
 
 # You can use add_subdirectory() to add your own work. 
 # Please don't remove the existing subdirectories.
