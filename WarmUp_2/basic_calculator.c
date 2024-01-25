@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(int argc, char * * argv) {
+
+  if (argc < 2) {
+    printf("Need a number!\n");
+    return EXIT_FAILURE;
+  }
     double a, b;
    
       printf("Enter first number: ");
