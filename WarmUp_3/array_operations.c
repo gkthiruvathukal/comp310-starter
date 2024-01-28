@@ -1,17 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-#define SIZE 5
 
-int main(void) {
-    int index, numbers[SIZE];
+int main() {
+    int numbers[] = {1, 2, 3, 4, 5};
     int sum = 0;
-    float average;
-
-    for (index = 0; index < SIZE; index++)
-        sum += score[index];
-    average = (float) sum / SIZE;
-
-    printf
-
+    int length = sizeof(numbers) / sizeof(numbers[0]);
+    for (int i = 0; i < length; i++) {
+        sum += numbers[i];
+    }
+    double average = sum / (double) length;
+    printf("Sum: %d\n", sum);
+    printf("Average: %f\n", average);
     return 0;
 }
