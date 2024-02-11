@@ -4,7 +4,7 @@ This is a starter repository for COMP 310 (Operating Systems) students. You shou
 ## Learning objectives
 
 - Programming in C
-- Separate compilation
+- Separate compilation- Build automation using CMake
 - Build automation using CMake
 - Unit testing using GoogleTest
 - How to add modules to a CMake project

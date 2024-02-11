@@ -25,9 +25,17 @@ add_subdirectory(hello-lib)
 add_subdirectory(lwlog-lib)
 add_subdirectory(lwlog-demo)
 add_subdirectory(gtest-demo)
+add_subdirectory(Class_Example)
+add_subdirectory(WarmUp_1)
+add_subdirectory(WarmUp_2)
+add_subdirectory(WarmUp_3)
+add_subdirectory(WarmUp_4)
+add_subdirectory(WarmUp_5)
+add_subdirectory(WarmUp_6)
+add_subdirectory(WarmUp_7)
+add_subdirectory(WarmUp_8)
+add_subdirectory(WarmUp_9)
 add_subdirectory(WarmUp_10)
-
-
 # You can use add_subdirectory() to add your own work. 
 # Please don't remove the existing subdirectories.
 
